@@ -2,9 +2,9 @@ def DecimalToOctal(number):
     i = 1
     octal = 0
     while (number != 0):
-        reminder = number % 8
+        remainder = number % 8
         number /= 8
-        octal += reminder * i
+        octal += remainder * i
         i *= 10
     return octal
 
