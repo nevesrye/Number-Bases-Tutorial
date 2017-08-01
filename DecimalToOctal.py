@@ -9,4 +9,4 @@ def DecimalToOctal(number):
     return octal
 
 decimalnumber = 49175
-DecimalToOctal(decimalnumber)
+print(DecimalToOctal(decimalnumber))
