@@ -13,3 +13,6 @@ def BinaryToDecimal(number):
 		exp -= 1
 		decimal = decimal + temp
 	return(decimal)
+
+binarynumber = 109069
+BinaryToDecimal(binarynumber)
