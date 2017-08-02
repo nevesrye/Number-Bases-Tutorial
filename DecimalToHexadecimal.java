@@ -11,7 +11,7 @@ public class JavaProgram
         
         Scanner scan = new Scanner(System.in);
 		
-        System.out.print("Decimal Number : ");
+        System.out.print("Decimal Number = ");
         decimalnumber = scan.nextInt();
 		
         while(decimalnumber>0)
@@ -21,7 +21,7 @@ public class JavaProgram
             decimalnumber = decimalnumber/16;
         }
 		
-        System.out.print("Equivalent Hexadecimal Value of " + decimalnumber + " is :\n");
+        System.out.print("Hexadecimal Value of " + decimalnumber + " = :\n");
         System.out.print(hexadecimalnumber);
     }
 }
